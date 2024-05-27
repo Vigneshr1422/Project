@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.navigation{
+    width: 100% ;
+    height: 50px;
+    font-size: large;
+    background-color: #1A2238;
+    
+}
+span{
+    color:white;
+    font-size: 5 rem;
+
+    padding-left: 20px;
+    line-height: 50px;
+}
+.navigation ul{
+    float: right;
+}
+.navigation ul li{
+    display: inline-block;
+    margin:0 15px;
+    line-height: 50px;
+  
+}
+.navigation ul a{
+    color: rgb(246, 247, 246);
+}
+
+.navigation ul  li a:hover{
+ color: #FF6A3D;
+
+ 
+
+}
+@media (max-width:768px)
+{
+    .navigation{
+    width: 100% ;
+    height: 10%;
+
+}
+    .navigation ul {
+        font-size: large;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position: fixed;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        /*text-align: center;*/
+        padding: 10%;
+        top: 50px;
+        left: -100%;
+        transition: 1s;
+    }
+    .navigation ul.slide{
+        left: 0;
+        transition: 1s;
+    }
+    .navigation  ul li{
+        display: block;
+        width: 100%;
+        margin: 0;
+
+    }
+    .navigation  ul li a
+    {
+        font-size: 25px;
+    
+        border: none;
+        color:  #1A2238;
+    }
+   /* .navigation ul  li:hover{
+        background-color: black;
+    }*/
+    .navigation ul  li a:hover{
+        border: none;
+    }
+    .navigation ul li:hover a {
+        color: #FF6A3D;
+
+    }
+  
+    
+    .hamburger{
+        float: right;
+        padding-right: 20px;
+        padding-top: 12px;
+    }
+    .hamburger .line{
+        width: 3px;
+        height: 3px;
+        background-color:  white;
+        margin-bottom: 5px;
+        display: block;
+
+    }
+
+}
