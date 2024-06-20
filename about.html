@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - <AGTS></title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background-color: rgb(131, 57, 131);
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .about-section {
+            background: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .about-section h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        .about-section p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .team-member {
+            background: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            width: calc(30% - 20px);
+            box-sizing: border-box;
+            text-align: center;
+        }
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+        .team-member img {
+            width: 100%;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+        .team-member h3 {
+            margin: 0;
+            color: #333;
+        }
+        .team-member p {
+            color: #666;
+        }
+        footer {
+            background: rgb(131, 92, 179);
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .team-member {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .team-member {
+                width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>About Us - <AGTS></h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="about-section">
+            <h2>Our Story</h2>
+            <p><AGTS> is a leading IT company providing a wide range of services to help businesses succeed in the digital world. From web development and mobile app development to IT consulting and cybersecurity, we offer comprehensive solutions tailored to your needs.</p>
+            <p>Founded in 2020, our mission has been to deliver innovative and reliable IT services that empower our clients to achieve their goals. Our team of experts is dedicated to providing exceptional service and support, ensuring your business stays ahead of the curve.</p>
+        </div>
+
+        <div class="team">
+            <div class="team-member">
+                <img src="tech/1.jpg" alt="Tech Photo 1">
+                <h3>Web Development</h3>
+                <p>Creating modern and responsive websites.</p>
+            </div>
+            <div class="team-member">
+                <img src="tech/2.jpg" alt="Tech Photo 2">
+                <h3>Mobile App Development</h3>
+                <p>Developing user-friendly mobile applications.</p>
+            </div>
+            <div class="team-member">
+                <img src="tech/3.jpg" alt="Tech Photo 3">
+                <h3>IT Consulting</h3>
+                <p>Providing expert IT consulting services.</p>
+            </div>
+            <div class="team-member">
+                <img src="tech/4.jpg" alt="Tech Photo 4">
+                <h3>Cloud Solutions</h3>
+                <p>Implementing scalable cloud solutions.</p>
+            </div>
+            <div class="team-member">
+                <img src="tech/5.jpg" alt="Tech Photo 5">
+                <h3>Data Analytics</h3>
+                <p>Unlocking insights with data analytics.</p>
+            </div>
+            <div class="team-member">
+                <img src="tech/6.jpg" alt="Tech Photo 6">
+                <h3>Cybersecurity</h3>
+                <p>Ensuring robust cybersecurity measures.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 <AGTS>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
