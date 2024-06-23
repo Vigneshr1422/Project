@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><AGTS> Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background-color:rgb(150, 24, 150); /* Changed to violet */
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .services {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .service {
+            background: #fff;
+            padding: 20px;
+            margin: 10px;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            width: calc(30% - 20px);
+            box-sizing: border-box;
+        }
+        .service:hover {
+            transform: translateY(-5px);
+        }
+        .service h2 {
+            color: #333;
+            margin-top: 0;
+        }
+        .service p {
+            color: #666;
+        }
+        footer {
+            background: rgb(150, 24, 150); /* Changed to violet */
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        /* Responsive styles */
+        @media (max-width: 768px) {
+            .service {
+                width: calc(50% - 20px);
+            }
+        }
+        @media (max-width: 480px) {
+            .service {
+                width: calc(100% - 20px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1><AGTS> Services</h1>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="services">
+            <div class="service">
+                <h2>Web Development</h2>
+                <p>We provide custom web development solutions tailored to your business needs.</p>
+            </div>
+            <div class="service">
+                <h2>Mobile App Development</h2>
+                <p>Our team specializes in creating intuitive and responsive mobile applications.</p>
+            </div>
+            <div class="service">
+                <h2>IT Consulting</h2>
+                <p>Let us help you streamline your IT processes and improve efficiency.</p>
+            </div>
+            <div class="service">
+                <h2>Cloud Solutions</h2>
+                <p>Explore the benefits of cloud computing with our scalable cloud solutions.</p>
+            </div>
+            <div class="service">
+                <h2>Data Analytics</h2>
+                <p>Unlock valuable insights from your data with our advanced analytics services.</p>
+            </div>
+            <div class="service">
+                <h2>Cybersecurity</h2>
+                <p>Protect your business from cyber threats with our robust cybersecurity solutions.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 <AGTS>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
